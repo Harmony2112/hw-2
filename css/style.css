@@ -1,0 +1,144 @@
+:root{
+ --primary-text-color:#757575;
+ --title-text-color:#212121;
+ --accent-color:#2196F3;
+}
+body{
+ color:var(--primary-text-color);
+ background: #FFFFFF;
+ font-family: Roboto, sans-serif;
+ letter-spacing: 0.02em;
+ font-size: 14px;
+line-height: 1.71;
+}
+.logo{
+font-family: Raleway,sans-serif;
+color: var(--title-text-color);
+
+font-size: 24px;
+line-height: 1.16;
+text-decoration: none;
+}
+.logo-secondly{
+ font-family: Raleway,sans-serif;
+color:white;
+
+font-size: 24px;
+line-height: 1.16;
+text-decoration: none;
+}
+.accent{
+color: #2196F3;
+}
+.auth-nav.list{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+}
+.hero-title {
+color: white;
+
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+}
+
+.button-primary {
+color:white;
+background-color: var(--accent-color);
+
+font-weight: 700;
+font-size: 16px;
+line-height: 1.8;
+
+cursor: pointer;
+}
+.button-secondly{
+color: var(--title-text-color);
+background-color:#F5F4FA;
+
+cursor: pointer;
+}
+.button-secondly:hover,
+.button-secondly:focus {
+ color:white;
+ background-color:var(--accent-color);
+}
+.link{
+  text-decoration: none;
+}
+.site-nav .link{
+color: var(--title-text-color);
+
+font-weight: 500;
+font-size: 14px;
+line-height: 1.2;
+text-decoration: none;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+ color:var(--accent-color);
+}
+.auth-nav .link{
+ color: var(--primary-text-color)
+ text-decoration: none;
+}
+.auth-nav .link:hover{
+ color:var(--accent-color)
+}
+.list{
+  list-style: none;
+}
+
+.section-title{
+ color:var(--title-text-color);
+
+font-weight: 700;
+font-size: 16px;
+line-height: 1.88;
+}
+.feature-list .title{
+color: #212121;
+
+ font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+}
+.list .title{
+  color: #212121;
+
+  font-weight: 700;
+font-size: 18px;
+line-height: 2;
+}
+.list .desription{
+color: #FFFFFF;
+
+font-size: 18px;
+line-height:1.56;
+}
+.work-list .title{
+  color: #FFFFFF;
+
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+}
+
+.section-title name{
+ color:var(--title-text-color)
+}
+.button:hover,
+.button:focus{
+  color:var(--accent-color);
+}
+.button{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+cursor: pointer;
+}
+.info{
+  background: #2F303A;
+  color: #FFFFFF;
+}
