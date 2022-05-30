@@ -11,6 +11,11 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1230px;
+}
 .logo {
   font-family: Raleway, sans-serif;
   color: var(--title-text-color);
@@ -54,32 +59,63 @@ body {
 .contact .link:hover {
   color: var(--accent-color);
 }
+.hero {
+  text-align: center;
+}
 .hero-title {
+  margin-top: 0px;
+  margin-bottom: 10px;
   color: white;
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-align: center;
 }
 
 .hero-button {
+  padding: 10px 32px;
+  border-radius: 4px;
   color: white;
   background-color: var(--accent-color);
 
   font-weight: 700;
   font-size: 16px;
   line-height: 1.8;
-
+  text-decoration: none;
   cursor: pointer;
+}
+.feature-list {
+  margin-top: 94px;
+  margin-bottom: 94px;
+}
+.feature-list p {
+  margin-top: 0px;
+  margin-bottom: 94px;
 }
 .feature-list .title {
   color: #212121;
-
+  margin-top: 30px;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
 }
-.section-title {
+.team .team-title {
+  margin-top: 188px;
+  margin-bottom: 50px;
+}
+.teammate {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.team-list p {
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+.team-title {
+  margin-top: 0px;
+  margin-bottom: 50px;
   color: var(--title-text-color);
 
   font-weight: 700;
@@ -102,9 +138,13 @@ body {
 }
 .link {
   text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 .list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .list .title {
   color: #212121;
@@ -114,6 +154,12 @@ body {
   line-height: 2;
 }
 .portfolio-button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 6px 22px;
+  height: 38px;
+  text-align: center;
+  border: none;
   color: #212121;
   background: #f5f4fa;
   border-radius: 4px;
@@ -121,7 +167,8 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-
+  text-decoration: none;
+  list-style: none;
   cursor: pointer;
 }
 .portfolio-button:hover,
@@ -170,7 +217,13 @@ body {
   line-height: 1.14;
 }
 .sign-button {
+  border-radius: 4px;
+  padding: 10px 28px;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.06em;
   color: #ffffff;
+  background-color: #2196f3;
 
   font-weight: 700;
   font-size: 16px;
